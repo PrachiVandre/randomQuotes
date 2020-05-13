@@ -1,0 +1,37 @@
+.max-height {
+  min-height: 100vh;
+}
+body {
+  background:url('../bg.jpg') repeat center;
+  overflow: hidden;
+}
+.quote-container {
+  background:#000;
+  border: 1px double #000;
+  outline: 2px solid #8e9649;
+  outline-offset: -9px;
+  height: auto;
+  width:400px;
+}
+#generate-btn {
+  color: #000 !important;
+  background:#CDDC39 !important;
+  border-color: #CDDC39 !important;
+  border:0;
+  cursor: pointer;
+  font-size: 1rem;
+  padding: 0.5rem 1rem;
+  transition: 0.5s;
+}
+#generate-btn:hover {
+  background: #fff !important;
+  border-color: #fff !important;
+  color: #000 !important;
+}
+.author,.text-muted {
+  color: #CDDC39 !important;
+}
+span#quote {
+  color: #fff;
+  font-weight:normal;
+}
